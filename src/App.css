@@ -1,0 +1,40 @@
+#app-container{
+  gap: 30px;
+  position: relative;
+}
+#side-bar{
+  position: sticky;
+}
+.main-container{
+  width: 95%;
+  margin:  auto auto;
+  padding-top: 40px;
+  
+}
+.body-container{
+background-color:hsl(240, 4%, 13%) ;
+position: relative;
+border: 1px solid hsl(0, 0%, 22%);
+border-radius: 20px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+#nav-bar{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 780px) {
+  #nav-bar{
+  position: fixed;
+  top: auto;
+  bottom: 0;
+  left:0;
+  right: auto;
+  width: 100%;
+  z-index: 50;
+}
+#nav-bar a{
+  font-size: 1rem;
+}
+} 
+

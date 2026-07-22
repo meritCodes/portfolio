@@ -1,0 +1,88 @@
+#sidebarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 22%);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background-color:hsl(240, 4%, 13%) ;
+    color:white;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+
+#contact-details{
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+#contact-child{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 15px;
+}
+#contact-child h5{
+    color:hsl(240, 3%, 31%);
+    font-size: 0.8rem;
+}
+.icon-class{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.profile{
+    gap: 20px;
+    
+}
+.profile h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.profile p{
+    font-weight: 500;
+    background-color:hsl(240, 1%, 32%) ;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.profile .image-box{
+   background-color:hsl(240, 1%, 32%) ;
+   padding: 20px;
+   border-radius: 25px;
+}
+#show-contact{
+    background: linear-gradient(to right, rgb(85, 61, 2) 5%, rgb(59, 58, 58) 70%);
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 6px;
+    border: 1px solid goldenrod;
+    font-weight: 500;
+    font-size: 0.8rem;
+    font-family: "Noto Sans Khmer", sans-serif;
+}
+.horLine {
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 30%);
+}
+
+@media (max-width:780px) {
+    #sidebarContainer{
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+}

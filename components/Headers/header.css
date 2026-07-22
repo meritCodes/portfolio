@@ -1,0 +1,9 @@
+#hrline{
+    border: none;
+    border-top: 4px solid goldenrod;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#headerTitle{
+    font-family: "Megrim", system-ui;
+}
