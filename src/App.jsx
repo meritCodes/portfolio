@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import {Search } from 'lucide-react'
-import './app.css'
+import './App.css'
 import NavBar from './pages/NavBar'
 import { Routes, Route } from 'react-router-dom'
 import Contact from './pages/Contact'
