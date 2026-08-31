@@ -1,4 +1,4 @@
-import resumeSteps from '../../src/assets/resumeSteps'
+import resumeSteps from '../../assets/resumeSteps'
 import useInView from '../useInView'
 import './education.css'
 import { BookOpen } from 'lucide-react';

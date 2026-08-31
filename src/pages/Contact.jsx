@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../components/Headers/Header'
-import Form from '../../components/form/Form'
+import Header from '../components/Headers/Header'
+import Form from '../components/form/Form'
 import './contact.css'
 
 const Contact = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../components/Headers/Header'
-import Education from '../../components/Education/Education'
+import Header from '../components/Headers/Header'
+import Education from '../components/Education/Education'
 
 const Resume = () => {
   return (

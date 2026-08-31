@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutMe from '../../components/AboutMe/AboutMe'
-import Skills from '../../components/Skills/Skills'
+import AboutMe from '../components/AboutMe/AboutMe'
+import Skills from '../components/Skills/Skills'
 import './about.css'
 
 const About = () => {
